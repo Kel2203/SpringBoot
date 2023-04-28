@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({"com.learnjava"})
 @SpringBootApplication
 public class AulaSpringBootApplication implements CommandLineRunner {
-//teste
+
 	@Autowired
  private SalaryService salaryService;
 
